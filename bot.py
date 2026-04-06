@@ -18,7 +18,7 @@ exchange = ccxt.delta({
     },
 })
 
-SYMBOLS   = ['BTC/USD:USD', 'ETH/USD:USD', 'SOL/USD:USD']
+SYMBOLS   = ['BTC/USD:USD','SOL/USD:USD']
 TIMEFRAME = '5m'
 LOT_SIZE  = 1
 
