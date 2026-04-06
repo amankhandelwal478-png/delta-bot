@@ -4,12 +4,12 @@ import ta
 import time
 from datetime import datetime, timezone
 
-API_KEY    = 'YAHAN_API_KEY'
-API_SECRET = 'YAHAN_SECRET'
+API_KEY    = 'D76ksMoFEatQDZqwBZEQXkgnrxhaTD'
+API_SECRET = 'QDIRMP80CfaVfjvM0lLzcM1wafJI69e6QcdT4OusixH3XD4yMTUP8PQh5oP4'
 
 exchange = ccxt.delta({
-    'apiKey': 'D76ksMoFEatQDZqwBZEQXkgnrxhaTD',
-    'secret': 'QDIRMP80CfaVfjvM0lLzcM1wafJI69e6QcdT4OusixH3XD4yMTUP8PQh5oP4',
+    'apiKey': API_KEY,
+    'secret': API_SECRET,
     'urls': {
         'api': {
             'public':  'https://api.india.delta.exchange',
