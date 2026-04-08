@@ -3,8 +3,8 @@ import pandas as pd
 import time
 
 exchange = ccxt.delta({
-    'apiKey': '',
-    'secret': '',
+    'apiKey': 'D76ksMoFEatQDZqwBZEQXkgnrxhaTD',
+    'secret': 'QDIRMP80CfaVfjvM0lLzcM1wafJI69e6QcdT4OusixH3XD4yMTUP8PQh5oP4',
 })
 
 SYMBOL = 'BTC/USD:USD'
